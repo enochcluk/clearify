@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   translateButton.addEventListener('click', () => {
     const apiUrl = `https://api.openai.com/v1/completions`;
-    const prompt = `Replace the biased terms in this with unbiased terms: ${biasedText.value}`;
+    const prompt = `Replace the biased terms in this piece of text with unbiased terms: ${biasedText.value}. Do not add to the prompt. If the prompt is offensive or derogatory, do not paraphrase it at all. Explain to the user how it is biased or offensive.`;
     const data = JSON.stringify({
       model: "text-davinci-003", 
       prompt,
