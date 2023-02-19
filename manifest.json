@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Clearify",
+  "version": "1.0",
+  "description": "Clear your text of social biases!",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}

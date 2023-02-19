@@ -1,0 +1,48 @@
+body {
+    width: 350px;
+    height: 200px;
+    padding: 2.5px;
+    background-color: darkslategray;
+    align-self: left;
+  }
+  
+  .logo {
+    background-color: lightslategray;
+    padding: 0.005%;
+    border-radius: 3px;
+    box-shadow: 1.5px 1px .5px palegreen;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .color1 {
+    color: palegreen;
+    text-shadow: 2px 1px 1px darkslategray;
+  }
+  
+  .color2 {
+    color: darkslategray;
+    text-shadow: 2px 1px 1px palegreen; 
+  }
+  
+  textarea {
+    width: 98%;
+    height: 100px;
+    margin-bottom: 5px;
+    margin-top: 5px; 
+    padding: 3px; 
+    border-radius: 5px; 
+    border-color: darkslategray; 
+    box-shadow: 1.5px 1px .5px palegreen;
+  }
+  
+  button {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    color: darkslategray;
+    outline-color: darkslategray;
+    background-color: white;
+    box-shadow: 1.5px 1px .5px palegreen;
+  }
+  
+  
