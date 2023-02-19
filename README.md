@@ -1,5 +1,7 @@
 # clearify
 
+Note: to use, you must replace the const API_KEY with *your own* OpenAI API Key.
+
 ## Inspiration
 
 We were inspired by the growing need for more objective and unbiased language in digital communications. With the increasing use of text-based communication, it is more important than ever to remove any biases that may be present in our writing. Our team saw an opportunity to develop a Chrome extension that helps individuals communicate more clearly and effectively.
